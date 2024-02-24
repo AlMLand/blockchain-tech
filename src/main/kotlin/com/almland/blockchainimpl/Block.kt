@@ -25,12 +25,7 @@ internal class Block(
         hash = Sha256Algorithm.generateHash(blockData)
     }
 
-    fun getId(): UUID = id
-    fun getNonce(): Int = nonce
     fun getHash(): String = hash
-    fun getTimeStamp(): Long = timeStamp
-    fun getTransaction(): String = transaction
-    fun getPreviousHash(): String = previousHash
 
     override fun toString(): String =
         "Block(id=$id, transaction='$transaction', previousHash='$previousHash', nonce=$nonce, " +
