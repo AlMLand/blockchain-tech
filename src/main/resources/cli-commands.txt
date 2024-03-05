@@ -1,0 +1,13 @@
+install truffle:
+    npm install -g truffle
+init projekt from folder:
+    truffle init
+install ganache-cli global, to run a local instance of ethereum vm:
+    npm install -g ganache-cli
+specified port to ganache-cli run:
+    ganache-cli -p <port number>
+
+compile
+    truffle compile
+migrate to evm:
+    truffle migrate --network developer

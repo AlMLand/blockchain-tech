@@ -40,3 +40,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Solidity build files ###
+src/**/book/**/build/contracts
